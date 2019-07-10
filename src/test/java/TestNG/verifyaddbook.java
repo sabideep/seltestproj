@@ -16,7 +16,7 @@ public class verifyaddbook {
 		System.setProperty("webdriver.chrome.driver","chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.get("http://35.237.173.116:32768/addressbook/");
+		driver.get("http://35.229.78.34:32768/addressbook/");
 	}
   @Test
   public void verify() {
